@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<canciones>
+    <cancion>
+        <anio>2008</anio>
+        <titulo>Give it 2 me</titulo>
+        <duracion>
+            <minutos>4</minutos>
+            <segundos>47</segundos>
+        </duracion>
+        <compositores>
+            <compositor>
+                <nombres>Pharrel</nombres>
+                <apellidos>Williams</apellidos>
+            </compositor>
+        </compositores>
+        <productores>
+            <productor>
+                <nombres>Pharrel</nombres>
+                <apellidos>Williams</apellidos>
+            </productor>
+        </productores>
+        <sello>Warner Bros. Records</sello>
+        <artista>Madonna</artista>
+    </cancion>
+    <cancion>
+        <anio>2016</anio>
+        <titulo>Congratulations</titulo>
+        <duracion>
+            <minutos>4</minutos>
+            <segundos>16</segundos>
+        </duracion>
+        <compositores>
+            <compositor>
+                <nombres>Mac</nombres>
+                <apellidos>Miller</apellidos>
+            </compositor>
+        </compositores>
+        <productores>
+            <productor>
+                <nombres>Mac</nombres>
+                <apellidos>Miller</apellidos>
+            </productor>
+        </productores>
+        <sello>Warner Records</sello>
+        <artista>Mac Miller</artista>
+    </cancion>
+    <cancion>
+        <anio>2017</anio>
+        <titulo>See You Again</titulo>
+        <duracion>
+            <minutos>3</minutos>
+            <segundos>00</segundos>
+        </duracion>
+        <compositores>
+            <compositor>
+                <nombres>Tyler</nombres>
+                <apellidos>Okonma</apellidos>
+            </compositor>
+        </compositores>
+        <productores>
+            <productor>
+                <nombres>Tyler</nombres>
+                <apellidos>Okonma</apellidos>
+            </productor>
+        </productores>
+        <sello>Columbia Records</sello>
+        <artista>Tyler, The Creator</artista>
+    </cancion>
+</canciones>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="canciones" type="cancionesType"/>
+  <xsd:complexType name="compositorType">
+    <xsd:sequence>
+      <xsd:element type="xsd:string" name="nombres"/>
+      <xsd:element type="xsd:string" name="apellidos"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="compositoresType">
+    <xsd:sequence>
+      <xsd:element type="compositorType" name="compositor"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="productorType">
+    <xsd:sequence>
+      <xsd:element type="xsd:string" name="nombres"/>
+      <xsd:element type="xsd:string" name="apellidos"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="productoresType">
+    <xsd:sequence>
+      <xsd:element type="productorType" name="productor"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="duracionType">
+    <xsd:sequence>
+      <xsd:element type="xsd:integer" name="minutos"/>
+      <xsd:element type="xsd:integer" name="segundos"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="cancionType">
+    <xsd:sequence>
+      <xsd:element type="xsd:integer" name="anio"/>
+      <xsd:element type="xsd:string" name="titulo"/>
+      <xsd:element type="duracionType" name="duracion"/>
+      <xsd:element type="compositoresType" name="compositores"/>
+      <xsd:element type="productoresType" name="productores"/>
+      <xsd:element type="xsd:string" name="sello"/>
+      <xsd:element type="xsd:string" name="artista"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="cancionesType">
+    <xsd:sequence>
+      <xsd:element type="cancionType" name="cancion" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>
